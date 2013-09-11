@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/controller/browse
+END
+artist.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/controller/browse/artist.class.php
+END
+song.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/controller/browse/song.class.php
+END
+album.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/controller/browse/album.class.php
+END

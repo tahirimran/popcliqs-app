@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/block
+END
+filter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/block/filter.class.php
+END
+attachment.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/block/attachment.class.php
+END
+parent.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/block/parent.class.php
+END
+new.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/block/new.class.php
+END
+stream.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/block/stream.class.php
+END
+featured.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/block/featured.class.php
+END
+profile.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/block/profile.class.php
+END
+album.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/block/album.class.php
+END
+menu-album.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/block/menu-album.class.php
+END
+detail.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/block/detail.class.php
+END
+share.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/block/share.class.php
+END
+menu.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/block/menu.class.php
+END
+warning.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/block/warning.class.php
+END
+drop-down.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/block/drop-down.class.php
+END
+album-tag.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/block/album-tag.class.php
+END
+stat.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/block/stat.class.php
+END
+edit-photo.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/block/edit-photo.class.php
+END
+sponsored.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/block/sponsored.class.php
+END
+category.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/block/category.class.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/block/index.html
+END

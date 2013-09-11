@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/feed/include/component/block
+END
+display.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/feed/include/component/block/display.class.php
+END
+mini.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/feed/include/component/block/mini.class.php
+END
+like-list.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/feed/include/component/block/like-list.class.php
+END
+setting.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/feed/include/component/block/setting.class.php
+END
+time.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/feed/include/component/block/time.class.php
+END
+comment.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/feed/include/component/block/comment.class.php
+END
+share.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/feed/include/component/block/share.class.php
+END
+rating.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/feed/include/component/block/rating.class.php
+END

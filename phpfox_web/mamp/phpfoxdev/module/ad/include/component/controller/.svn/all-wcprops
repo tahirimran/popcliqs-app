@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/openit_pq/!svn/ver/8/phpfox_dev/mamp/phpfoxdev/module/ad/include/component/controller
+END
+index.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openit_pq/!svn/ver/9/phpfox_dev/mamp/phpfoxdev/module/ad/include/component/controller/index.class.php
+END
+add.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/openit_pq/!svn/ver/8/phpfox_dev/mamp/phpfoxdev/module/ad/include/component/controller/add.class.php
+END
+manage.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/openit_pq/!svn/ver/9/phpfox_dev/mamp/phpfoxdev/module/ad/include/component/controller/manage.class.php
+END
+manage-sponsor.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/openit_pq/!svn/ver/9/phpfox_dev/mamp/phpfoxdev/module/ad/include/component/controller/manage-sponsor.class.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/openit_pq/!svn/ver/9/phpfox_dev/mamp/phpfoxdev/module/ad/include/component/controller/index.html
+END
+preview.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/openit_pq/!svn/ver/9/phpfox_dev/mamp/phpfoxdev/module/ad/include/component/controller/preview.class.php
+END
+sample.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/openit_pq/!svn/ver/9/phpfox_dev/mamp/phpfoxdev/module/ad/include/component/controller/sample.class.php
+END
+image.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openit_pq/!svn/ver/9/phpfox_dev/mamp/phpfoxdev/module/ad/include/component/controller/image.class.php
+END
+iframe.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/openit_pq/!svn/ver/9/phpfox_dev/mamp/phpfoxdev/module/ad/include/component/controller/iframe.class.php
+END
+sponsor.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/openit_pq/!svn/ver/9/phpfox_dev/mamp/phpfoxdev/module/ad/include/component/controller/sponsor.class.php
+END

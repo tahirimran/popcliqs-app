@@ -1,0 +1,16 @@
+<module>
+	<data>
+		<module_id>popcliqsevents</module_id>
+		<product_id>popcliqs</product_id>
+		<is_core>0</is_core>
+		<is_active>1</is_active>
+		<is_menu>1</is_menu>
+		<menu><![CDATA[a:2:{s:32:"popcliqsevents.admin_menu_menu_1";a:1:{s:3:"url";a:1:{i:0;s:14:"popcliqsevents";}}s:32:"popcliqsevents.admin_menu_menu_2";a:1:{s:3:"url";a:2:{i:0;s:14:"popcliqsevents";i:1;s:3:"new";}}}]]></menu>
+		<phrase_var_name>module_popcliqsevents</phrase_var_name>
+	</data>
+	<phrases>
+		<phrase module_id="popcliqsevents" version_id="3.5.0" var_name="admin_menu_menu_1" added="1367589195">Menu 1</phrase>
+		<phrase module_id="popcliqsevents" version_id="3.5.0" var_name="admin_menu_menu_2" added="1367589195">Menu 2</phrase>
+		<phrase module_id="popcliqsevents" version_id="3.5.0" var_name="module_popcliqsevents" added="1367589195">Popcliqsevents</phrase>
+	</phrases>
+</module>

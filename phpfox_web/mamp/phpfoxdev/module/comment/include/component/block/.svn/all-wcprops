@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/comment/include/component/block
+END
+display.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/comment/include/component/block/display.class.php
+END
+view.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/comment/include/component/block/view.class.php
+END
+mini.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/comment/include/component/block/mini.class.php
+END
+moderate.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/comment/include/component/block/moderate.class.php
+END
+rating.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/comment/include/component/block/rating.class.php
+END

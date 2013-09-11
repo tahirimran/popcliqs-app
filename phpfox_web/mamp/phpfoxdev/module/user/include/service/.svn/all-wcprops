@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/service
+END
+api.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/service/api.class.php
+END
+validate.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/service/validate.class.php
+END
+space.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/service/space.class.php
+END
+activity.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/service/activity.class.php
+END
+callback.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/service/callback.class.php
+END
+process.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/service/process.class.php
+END
+user.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/service/user.class.php
+END
+auth.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/service/auth.class.php
+END
+browse.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/service/browse.class.php
+END
+password.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/service/password.class.php
+END
+register.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/service/register.class.php
+END

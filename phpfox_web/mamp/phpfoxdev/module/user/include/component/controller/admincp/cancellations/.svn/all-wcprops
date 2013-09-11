@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/controller/admincp/cancellations
+END
+add.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/controller/admincp/cancellations/add.class.php
+END
+manage.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/controller/admincp/cancellations/manage.class.php
+END
+feedback.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/controller/admincp/cancellations/feedback.class.php
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/template/default/controller/admincp
+END
+add.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/template/default/controller/admincp/add.html.php
+END
+inactivereminder.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/template/default/controller/admincp/inactivereminder.html.php
+END
+snoop.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/template/default/controller/admincp/snoop.html.php
+END
+ban.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/template/default/controller/admincp/ban.html.php
+END
+spam.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/template/default/controller/admincp/spam.html.php
+END
+browse.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/template/default/controller/admincp/browse.html.php
+END

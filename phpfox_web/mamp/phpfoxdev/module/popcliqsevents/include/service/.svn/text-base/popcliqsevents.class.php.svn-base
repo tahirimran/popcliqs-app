@@ -1,0 +1,22 @@
+<?php 
+  
+class Popcliqsevents_Service_Popcliqsevents extends Phpfox_Service  
+{ 
+    public function getUsersEventPrefs() 
+    { 
+        return $this->database()->select('*') 
+            ->from(Phpfox::getT('user_category_pref')) 
+  		 	->where('user_id='.Phpfox::getUserId())
+            ->execute('getRows'); 
+
+    } 
+
+    public function getEventPref(){
+
+
+    		echo "just simple message" ; 
+
+    }
+} 
+  
+?>

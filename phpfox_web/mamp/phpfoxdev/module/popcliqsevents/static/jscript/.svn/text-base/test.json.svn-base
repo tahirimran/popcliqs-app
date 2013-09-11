@@ -1,0 +1,33 @@
+ { 
+		 
+	"event_1" : 
+	{ 
+		"id" 		: 1 		, 
+		"size" 		: "L"   	, 
+		"type"  	: "event"	,
+		"time"  	: "5:00"    , 
+		"fillPCent"	: 50   		, 
+		"rank"  	: 5   		, 
+		"mratio"  	: 0.5   
+	},
+	"event_2" : 
+	{ 
+		"id" 		: 2 		, 
+		"size" 		: "S"   	, 
+		"type"  	: "edu"		,
+		"time"  	: "17:00"   , 
+		"fillPCent"	: 24   		, 
+		"rank"  	: 3   		, 
+		"mratio"  	: 0.3   
+	},
+	"event_3" : 
+	{ 
+		"id" 		: 3 		, 
+		"size" 		: "M"   	, 
+		"type"  	: "sports"	,
+		"time"  	: "20:00"   , 
+		"fillPCent"	: 70   		, 
+		"rank"  	: 7   		, 
+		"mratio"  	: 1.5   
+	}
+}

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/openit_pq/!svn/ver/25/phpfox_dev/mamp/phpfoxdev/module/popcliqsevents/include/component/block
+END
+fetchintevent.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/openit_pq/!svn/ver/25/phpfox_dev/mamp/phpfoxdev/module/popcliqsevents/include/component/block/fetchintevent.class.php
+END
+newevent.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/openit_pq/!svn/ver/25/phpfox_dev/mamp/phpfoxdev/module/popcliqsevents/include/component/block/newevent.class.php
+END
+event.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/openit_pq/!svn/ver/25/phpfox_dev/mamp/phpfoxdev/module/popcliqsevents/include/component/block/event.class.php
+END
+history.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/openit_pq/!svn/ver/25/phpfox_dev/mamp/phpfoxdev/module/popcliqsevents/include/component/block/history.class.php
+END
+preferences.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/openit_pq/!svn/ver/25/phpfox_dev/mamp/phpfoxdev/module/popcliqsevents/include/component/block/preferences.class.php
+END

@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpmailer/examples
+END
+test_sendmail.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpmailer/examples/test_sendmail.php
+END
+test_sendmail_basic.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpmailer/examples/test_sendmail_basic.php
+END
+test_smtp_gmail_basic.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpmailer/examples/test_smtp_gmail_basic.php
+END
+test_smtp_basic_no_auth.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpmailer/examples/test_smtp_basic_no_auth.php
+END
+pop3_before_smtp_test.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpmailer/examples/pop3_before_smtp_test.php
+END
+test_mail_advanced.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpmailer/examples/test_mail_advanced.php
+END
+test_smtp_advanced.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpmailer/examples/test_smtp_advanced.php
+END
+test_pop_before_smtp_advanced.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpmailer/examples/test_pop_before_smtp_advanced.php
+END
+contents.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpmailer/examples/contents.html
+END
+test_sendmail_advanced.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpmailer/examples/test_sendmail_advanced.php
+END
+test_smtp_gmail_advanced.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpmailer/examples/test_smtp_gmail_advanced.php
+END
+test_mail.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpmailer/examples/test_mail.php
+END
+test_smtp.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpmailer/examples/test_smtp.php
+END
+test_mail_basic.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpmailer/examples/test_mail_basic.php
+END
+test_pop_before_smtp_basic.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpmailer/examples/test_pop_before_smtp_basic.php
+END
+test_smtp_basic.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpmailer/examples/test_smtp_basic.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpmailer/examples/index.html
+END
+test_smtp_advanced_no_auth.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpmailer/examples/test_smtp_advanced_no_auth.php
+END
+test_gmail.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpmailer/examples/test_gmail.php
+END
+test_db_smtp_basic.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpmailer/examples/test_db_smtp_basic.php
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openit_pq/!svn/ver/13/phpfox_dev/mamp/phpfoxdev/module/language/include/component/controller/admincp
+END
+email.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/openit_pq/!svn/ver/13/phpfox_dev/mamp/phpfoxdev/module/language/include/component/controller/admincp/email.class.php
+END
+index.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/openit_pq/!svn/ver/13/phpfox_dev/mamp/phpfoxdev/module/language/include/component/controller/admincp/index.class.php
+END
+add.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/openit_pq/!svn/ver/13/phpfox_dev/mamp/phpfoxdev/module/language/include/component/controller/admincp/add.class.php
+END
+missing.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/openit_pq/!svn/ver/13/phpfox_dev/mamp/phpfoxdev/module/language/include/component/controller/admincp/missing.class.php
+END
+import.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/openit_pq/!svn/ver/13/phpfox_dev/mamp/phpfoxdev/module/language/include/component/controller/admincp/import.class.php
+END
+file.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/openit_pq/!svn/ver/13/phpfox_dev/mamp/phpfoxdev/module/language/include/component/controller/admincp/file.class.php
+END
+delete.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/openit_pq/!svn/ver/13/phpfox_dev/mamp/phpfoxdev/module/language/include/component/controller/admincp/delete.class.php
+END

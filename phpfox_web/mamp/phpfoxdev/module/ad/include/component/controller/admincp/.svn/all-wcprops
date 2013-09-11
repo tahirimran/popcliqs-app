@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/openit_pq/!svn/ver/8/phpfox_dev/mamp/phpfoxdev/module/ad/include/component/controller/admincp
+END
+index.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/openit_pq/!svn/ver/8/phpfox_dev/mamp/phpfoxdev/module/ad/include/component/controller/admincp/index.class.php
+END
+add.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/openit_pq/!svn/ver/8/phpfox_dev/mamp/phpfoxdev/module/ad/include/component/controller/admincp/add.class.php
+END
+invoice.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/openit_pq/!svn/ver/8/phpfox_dev/mamp/phpfoxdev/module/ad/include/component/controller/admincp/invoice.class.php
+END
+sponsor.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/openit_pq/!svn/ver/9/phpfox_dev/mamp/phpfoxdev/module/ad/include/component/controller/admincp/sponsor.class.php
+END

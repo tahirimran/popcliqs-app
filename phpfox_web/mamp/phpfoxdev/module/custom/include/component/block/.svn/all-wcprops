@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/custom/include/component/block
+END
+display.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/custom/include/component/block/display.class.php
+END
+static.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/custom/include/component/block/static.class.php
+END
+block.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/custom/include/component/block/block.class.php
+END
+group-form.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/custom/include/component/block/group-form.class.php
+END
+panel.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/custom/include/component/block/panel.class.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/custom/include/component/block/index.html
+END
+entry.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/custom/include/component/block/entry.class.php
+END
+form.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/custom/include/component/block/form.class.php
+END

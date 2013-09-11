@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/controller/admincp
+END
+ip.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/controller/admincp/ip.class.php
+END
+latest-admin-login.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/controller/admincp/latest-admin-login.class.php
+END
+online-guest.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/controller/admincp/online-guest.class.php
+END
+stat.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/controller/admincp/stat.class.php
+END
+phpinfo.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/controller/admincp/phpinfo.class.php
+END
+branding.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/controller/admincp/branding.class.php
+END
+system.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/controller/admincp/system.class.php
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/profile/include/component/controller
+END
+my.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/profile/include/component/controller/my.class.php
+END
+index.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/profile/include/component/controller/index.class.php
+END
+design.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/profile/include/component/controller/design.class.php
+END
+private.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/profile/include/component/controller/private.class.php
+END
+info.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/profile/include/component/controller/info.class.php
+END
+index-mobile.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/profile/include/component/controller/index-mobile.class.php
+END
+designer.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/profile/include/component/controller/designer.class.php
+END
+info-mobile.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/profile/include/component/controller/info-mobile.class.php
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/controller/admincp/group
+END
+index.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/controller/admincp/group/index.class.php
+END
+add.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/controller/admincp/group/add.class.php
+END
+activitypoints.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/controller/admincp/group/activitypoints.class.php
+END
+setting.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/controller/admincp/group/setting.class.php
+END
+delete.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/controller/admincp/group/delete.class.php
+END

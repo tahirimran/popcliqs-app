@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/openit_pq/!svn/ver/10/phpfox_dev/mamp/phpfoxdev/module/admincp/template/default/controller/setting
+END
+index.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/openit_pq/!svn/ver/10/phpfox_dev/mamp/phpfoxdev/module/admincp/template/default/controller/setting/index.html.php
+END
+add.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/openit_pq/!svn/ver/10/phpfox_dev/mamp/phpfoxdev/module/admincp/template/default/controller/setting/add.html.php
+END
+missing.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/openit_pq/!svn/ver/10/phpfox_dev/mamp/phpfoxdev/module/admincp/template/default/controller/setting/missing.html.php
+END
+file.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/openit_pq/!svn/ver/10/phpfox_dev/mamp/phpfoxdev/module/admincp/template/default/controller/setting/file.html.php
+END
+edit.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/openit_pq/!svn/ver/10/phpfox_dev/mamp/phpfoxdev/module/admincp/template/default/controller/setting/edit.html.php
+END
+search.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/openit_pq/!svn/ver/10/phpfox_dev/mamp/phpfoxdev/module/admincp/template/default/controller/setting/search.html.php
+END

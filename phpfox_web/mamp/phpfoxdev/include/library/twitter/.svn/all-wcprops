@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/twitter
+END
+simpleTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/twitter/simpleTest.php
+END
+ca-bundle.crt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/twitter/ca-bundle.crt
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/twitter/LICENSE
+END
+EpiOAuth.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/twitter/EpiOAuth.php
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/twitter/.gitignore
+END
+EpiTwitter.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/twitter/EpiTwitter.php
+END
+.gitattributes
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/twitter/.gitattributes
+END
+EpiCurl.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/twitter/EpiCurl.php
+END
+EpiSequence.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/twitter/EpiSequence.php
+END
+README.markdown
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/twitter/README.markdown
+END

@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/block
+END
+filter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/block/filter.class.php
+END
+photo.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/block/photo.class.php
+END
+new.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/block/new.class.php
+END
+login-ajax.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/block/login-ajax.class.php
+END
+showspamquestion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/block/showspamquestion.class.php
+END
+block.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/block/block.class.php
+END
+tooltip.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/block/tooltip.class.php
+END
+welcome.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/block/welcome.class.php
+END
+signup-error.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/block/signup-error.class.php
+END
+login-header.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/block/login-header.class.php
+END
+featured.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/block/featured.class.php
+END
+login-block.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/block/login-block.class.php
+END
+browse.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/block/browse.class.php
+END
+password.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/block/password.class.php
+END
+images.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/block/images.class.php
+END
+purchasepoints.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/block/purchasepoints.class.php
+END
+birth.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/block/birth.class.php
+END
+custom.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/block/custom.class.php
+END
+processpoints.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/block/processpoints.class.php
+END
+setting.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/block/setting.class.php
+END
+status.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/block/status.class.php
+END
+register-top.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/block/register-top.class.php
+END
+register.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/user/include/component/block/register.class.php
+END

@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/block
+END
+filter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/block/filter.class.php
+END
+new-album.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/block/new-album.class.php
+END
+photo-album.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/block/photo-album.class.php
+END
+album-info.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/block/album-info.class.php
+END
+photo.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/block/photo.class.php
+END
+latest-album.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/block/latest-album.class.php
+END
+info.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/block/info.class.php
+END
+latest.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/block/latest.class.php
+END
+featured-album.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/block/featured-album.class.php
+END
+genre-profile.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/block/genre-profile.class.php
+END
+featured.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/block/featured.class.php
+END
+genre.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/block/genre.class.php
+END
+album.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/block/album.class.php
+END
+profile.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/block/profile.class.php
+END
+genre-form.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/block/genre-form.class.php
+END
+menu-album.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/block/menu-album.class.php
+END
+share.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/block/share.class.php
+END
+top.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/block/top.class.php
+END
+menu.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/block/menu.class.php
+END
+track.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/block/track.class.php
+END
+song.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/block/song.class.php
+END
+sponsored-album.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/block/sponsored-album.class.php
+END
+list.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/block/list.class.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/block/index.html
+END
+sponsored-song.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/block/sponsored-song.class.php
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/openit_pq/!svn/ver/10/phpfox_dev/mamp/phpfoxdev/module/admincp/template/default/controller
+END
+index.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/openit_pq/!svn/ver/10/phpfox_dev/mamp/phpfoxdev/module/admincp/template/default/controller/index.html.php
+END
+login.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/openit_pq/!svn/ver/10/phpfox_dev/mamp/phpfoxdev/module/admincp/template/default/controller/login.html.php
+END
+logout.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/openit_pq/!svn/ver/10/phpfox_dev/mamp/phpfoxdev/module/admincp/template/default/controller/logout.html.php
+END
+limit.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/openit_pq/!svn/ver/10/phpfox_dev/mamp/phpfoxdev/module/admincp/template/default/controller/limit.html.php
+END

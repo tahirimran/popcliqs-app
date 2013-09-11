@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpfox/cdn/module
+END
+s3.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpfox/cdn/module/s3.class.php
+END
+rackspace.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpfox/cdn/module/rackspace.class.php
+END
+phpfox.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpfox/cdn/module/phpfox.class.php
+END

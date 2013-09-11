@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/openit_pq/!svn/ver/10/phpfox_dev/mamp/phpfoxdev/module/admincp/include/service
+END
+admincp.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/openit_pq/!svn/ver/10/phpfox_dev/mamp/phpfoxdev/module/admincp/include/service/admincp.class.php
+END
+callback.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/openit_pq/!svn/ver/10/phpfox_dev/mamp/phpfoxdev/module/admincp/include/service/callback.class.php
+END
+process.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/openit_pq/!svn/ver/10/phpfox_dev/mamp/phpfoxdev/module/admincp/include/service/process.class.php
+END

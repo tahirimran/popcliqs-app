@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/controller
+END
+index.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/controller/index.class.php
+END
+view-album.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/controller/view-album.class.php
+END
+frame.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/controller/frame.class.php
+END
+view.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/controller/view.class.php
+END
+player.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/controller/player.class.php
+END
+album.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/controller/album.class.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/controller/index.html
+END
+profile.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/controller/profile.class.php
+END
+register.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/controller/register.class.php
+END
+upload.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/music/include/component/controller/upload.class.php
+END

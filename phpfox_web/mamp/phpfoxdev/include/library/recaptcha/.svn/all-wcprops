@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/recaptcha
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/recaptcha/LICENSE
+END
+example-captcha.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/recaptcha/example-captcha.php
+END
+recaptchalib.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/recaptcha/recaptchalib.php
+END
+example-mailhide.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/recaptcha/example-mailhide.php
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/recaptcha/README
+END

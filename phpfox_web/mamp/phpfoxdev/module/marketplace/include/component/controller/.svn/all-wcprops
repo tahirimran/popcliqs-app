@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/marketplace/include/component/controller
+END
+index.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/marketplace/include/component/controller/index.class.php
+END
+add.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/marketplace/include/component/controller/add.class.php
+END
+purchase.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/marketplace/include/component/controller/purchase.class.php
+END
+view.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/marketplace/include/component/controller/view.class.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/marketplace/include/component/controller/index.html
+END
+profile.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/marketplace/include/component/controller/profile.class.php
+END

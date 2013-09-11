@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/mail/include/component/block
+END
+notify.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/mail/include/component/block/notify.class.php
+END
+folder.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/mail/include/component/block/folder.class.php
+END
+latest.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/mail/include/component/block/latest.class.php
+END
+message.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openit_pq/!svn/ver/14/phpfox_dev/mamp/phpfoxdev/module/mail/include/component/block/message.class.php
+END

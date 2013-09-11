@@ -1,0 +1,12 @@
+<?php 
+  
+class Popcliqsevents_Component_Block_Preferences extends Phpfox_Component 
+{     
+    public function process() 
+    { 	
+  		$aUsersEvtPrefs = Phpfox::getService('popcliqsevents')->getUsersEventPrefs(); 
+		$this->template()->assign('aUsersEvtPrefs', $aUsersEvtPrefs);
+    } 
+} 
+  
+?>

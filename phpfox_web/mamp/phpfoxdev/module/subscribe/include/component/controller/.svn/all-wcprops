@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/subscribe/include/component/controller
+END
+compare.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/subscribe/include/component/controller/compare.class.php
+END
+index.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/subscribe/include/component/controller/index.class.php
+END
+complete.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/subscribe/include/component/controller/complete.class.php
+END
+view.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/subscribe/include/component/controller/view.class.php
+END
+list.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/subscribe/include/component/controller/list.class.php
+END
+register.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/openit_pq/!svn/ver/16/phpfox_dev/mamp/phpfoxdev/module/subscribe/include/component/controller/register.class.php
+END

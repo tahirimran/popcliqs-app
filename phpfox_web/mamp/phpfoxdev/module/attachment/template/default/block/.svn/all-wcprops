@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/openit_pq/!svn/ver/10/phpfox_dev/mamp/phpfoxdev/module/attachment/template/default/block
+END
+add.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openit_pq/!svn/ver/10/phpfox_dev/mamp/phpfoxdev/module/attachment/template/default/block/add.html.php
+END
+list.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/openit_pq/!svn/ver/10/phpfox_dev/mamp/phpfoxdev/module/attachment/template/default/block/list.html.php
+END
+archive.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/openit_pq/!svn/ver/10/phpfox_dev/mamp/phpfoxdev/module/attachment/template/default/block/archive.html.php
+END
+current.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/openit_pq/!svn/ver/10/phpfox_dev/mamp/phpfoxdev/module/attachment/template/default/block/current.html.php
+END
+share.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/openit_pq/!svn/ver/10/phpfox_dev/mamp/phpfoxdev/module/attachment/template/default/block/share.html.php
+END
+upload.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/openit_pq/!svn/ver/10/phpfox_dev/mamp/phpfoxdev/module/attachment/template/default/block/upload.html.php
+END

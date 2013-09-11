@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/ban/include/component/controller/admincp
+END
+display.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/ban/include/component/controller/admincp/display.class.php
+END
+email.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/ban/include/component/controller/admincp/email.class.php
+END
+ip.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/ban/include/component/controller/admincp/ip.class.php
+END
+word.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/ban/include/component/controller/admincp/word.class.php
+END
+username.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/ban/include/component/controller/admincp/username.class.php
+END
+default.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/ban/include/component/controller/admincp/default.class.php
+END

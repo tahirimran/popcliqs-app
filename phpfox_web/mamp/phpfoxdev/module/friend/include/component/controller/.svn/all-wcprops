@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/friend/include/component/controller
+END
+index.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/friend/include/component/controller/index.class.php
+END
+suggestion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/friend/include/component/controller/suggestion.class.php
+END
+request.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/friend/include/component/controller/request.class.php
+END
+index-mobile.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/friend/include/component/controller/index-mobile.class.php
+END
+invoice.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/friend/include/component/controller/invoice.class.php
+END
+mybirthday.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/friend/include/component/controller/mybirthday.class.php
+END
+accept.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/friend/include/component/controller/accept.class.php
+END
+profile.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/friend/include/component/controller/profile.class.php
+END
+pending.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/friend/include/component/controller/pending.class.php
+END

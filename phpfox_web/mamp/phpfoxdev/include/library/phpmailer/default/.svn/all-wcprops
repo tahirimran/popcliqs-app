@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpmailer/default
+END
+codeworxtech.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpmailer/default/codeworxtech.html
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpmailer/default/LICENSE
+END
+ChangeLog.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpmailer/default/ChangeLog.txt
+END
+class.phpmailer.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpmailer/default/class.phpmailer.php
+END
+class.pop3.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpmailer/default/class.pop3.php
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpmailer/default/README
+END
+class.smtp.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpmailer/default/class.smtp.php
+END

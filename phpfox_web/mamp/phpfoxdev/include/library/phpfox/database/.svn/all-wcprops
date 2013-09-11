@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpfox/database
+END
+dba.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpfox/database/dba.class.php
+END
+support.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpfox/database/support.class.php
+END
+interface.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpfox/database/interface.class.php
+END
+export.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpfox/database/export.class.php
+END
+database.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/phpfox/database/database.class.php
+END

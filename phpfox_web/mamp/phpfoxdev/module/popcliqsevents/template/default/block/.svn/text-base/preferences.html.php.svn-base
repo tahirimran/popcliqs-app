@@ -1,0 +1,42 @@
+<div id="popuppref" class="popup">
+    <div class="top">
+        <span><h2>Prefererred Categories</h2></span>
+        <a id="popupprefClose"  class="popupClose"><img src="./module/popcliqsevents/static/image/close_btn1.png" border="0" alt="Close" width="24" height="25"></a>
+        </div>
+    <div class="foArea">
+      Won't Miss | Why Not | Sound like Fun | Not for me 
+     <form id='preferences'>
+        <fieldset>
+        {foreach from=$aCategories item=aCategory}   
+        <div class='formcontainer'>
+
+            <label for='message'>{$aCategory.name} :</label>
+
+            <input type="radio" name="{$aCategory.category_id}" id="{$aCategory.category_id}" value="3" style="display:inline"></input>
+            <input type="radio" name="{$aCategory.category_id}" id="{$aCategory.category_id}" value="2" style="display:inline"></input>
+            <input type="radio" name="{$aCategory.category_id}" id="{$aCategory.category_id}" value="1" style="display:inline"></input>
+            <input type="radio" name="{$aCategory.category_id}" id="{$aCategory.category_id}" value="0" style="display:inline"></input>
+            {foreach from=$aUsersEvtPrefs item=aUsersEvtPref} 
+                {if $aUsersEvtPref.category_id == $aCategory.category_id }
+                    <script>
+                        $("input[name={$aCategory.category_id}][value={$aUsersEvtPref.pref_code} ]").attr('checked', 'checked');
+                    </script>
+                {/if}
+            {/foreach}
+
+            
+        </div>
+        <br/>
+        {/foreach}
+        <input type="checkbox" name="checkbox" id="checkbox" style="display:inline"/> Default ZIP
+        <input type="checkbox" name="checkbox" id="checkbox" style="display:inline"/> Home ZIP <br/>
+        <input type="checkbox" name="checkbox" id="checkbox" style="display:inline" /> Others
+         <input name="textfield" type="text" id="textfield" value="Specific Key enter here" class="text" />
+        </fieldset>
+        <div class="foLeft">
+            <a id="popupUpdatePref">
+            <img src="./module/popcliqsevents/static/image/save_btn.png" align="left" alt="btn" width="112" height="46" border="0"></div>       
+            </a>    
+    </div>   
+    </form>
+</div> <!-- end of popuppref -->

@@ -1,0 +1,257 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block
+END
+dashboard.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/dashboard.class.php
+END
+template-menusub.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/template-menusub.class.php
+END
+new.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/new.class.php
+END
+view-admincp-login.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/view-admincp-login.class.php
+END
+template-menuaccount.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/template-menuaccount.class.php
+END
+designdnd.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/designdnd.class.php
+END
+template-notification.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/template-notification.class.php
+END
+moderation.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/moderation.class.php
+END
+admin-stat.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/admin-stat.class.php
+END
+note.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/note.class.php
+END
+template-footer.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/template-footer.class.php
+END
+template-logo.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/template-logo.class.php
+END
+stat.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/stat.class.php
+END
+template-menu.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/template-menu.class.php
+END
+template-copyright.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/template-copyright.class.php
+END
+country-child.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/country-child.class.php
+END
+message.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/message.class.php
+END
+giftpoints.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/giftpoints.class.php
+END
+template-holdername.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/template-holdername.class.php
+END
+latest-admin-login.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/latest-admin-login.class.php
+END
+ftp.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/ftp.class.php
+END
+quick-find.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/quick-find.class.php
+END
+currency.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/currency.class.php
+END
+info.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/info.class.php
+END
+welcome.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/welcome.class.php
+END
+activity.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/activity.class.php
+END
+template-menufooter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/template-menufooter.class.php
+END
+footer.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/footer.class.php
+END
+translate-country.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/translate-country.class.php
+END
+active-admin.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/active-admin.class.php
+END
+twitter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/twitter.class.php
+END
+template-breadcrumbmenu.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/template-breadcrumbmenu.class.php
+END
+new-setting.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/new-setting.class.php
+END
+template-body.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/template-body.class.php
+END
+template-contentclass.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/template-contentclass.class.php
+END
+template-breadcrumblist.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/template-breadcrumblist.class.php
+END
+news.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/news.class.php
+END
+site-stat.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/site-stat.class.php
+END
+category.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/category.class.php
+END
+holder.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/holder.class.php
+END
+translate-child-country.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/translate-child-country.class.php
+END
+preview.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/core/include/component/block/preview.class.php
+END

@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/template/default/block
+END
+attachment.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/template/default/block/attachment.html.php
+END
+photo-entry.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/template/default/block/photo-entry.html.php
+END
+new.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/template/default/block/new.html.php
+END
+parent.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/template/default/block/parent.html.php
+END
+stream.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/template/default/block/stream.html.php
+END
+hoverinfo.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/template/default/block/hoverinfo.html.php
+END
+featured.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/template/default/block/featured.html.php
+END
+album-entry.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/template/default/block/album-entry.html.php
+END
+album.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/template/default/block/album.html.php
+END
+profile.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/template/default/block/profile.html.php
+END
+form-album.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/template/default/block/form-album.html.php
+END
+menu-album.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/template/default/block/menu-album.html.php
+END
+detail.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/template/default/block/detail.html.php
+END
+share.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/template/default/block/share.html.php
+END
+form.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/template/default/block/form.html.php
+END
+menu.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/template/default/block/menu.html.php
+END
+specialmenu.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/template/default/block/specialmenu.html.php
+END
+warning.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/template/default/block/warning.html.php
+END
+drop-down.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/template/default/block/drop-down.html.php
+END
+album-tag.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/template/default/block/album-tag.html.php
+END
+new-image.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/template/default/block/new-image.html.php
+END
+stat.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/template/default/block/stat.html.php
+END
+edit-photo.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/template/default/block/edit-photo.html.php
+END
+sponsored.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/template/default/block/sponsored.html.php
+END
+category.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/template/default/block/category.html.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/template/default/block/index.html
+END
+filter.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/template/default/block/filter.html.php
+END

@@ -1,0 +1,49 @@
+<?php 
+
+class Popcliqsevents_Component_Controller_Index extends Phpfox_Component 
+{ 
+    public function process() 
+    {   
+    	$time_interval 	= isset($_GET["ti"]) ? $_GET["ti"] : 8; 
+    	$cat_type 		= isset($_GET["c"]) ? $_GET["c"] : 0; 
+    	$search_t	 	= isset($_GET["s"]) ? $_GET["s"] : ""; 
+
+        // Javascript 
+		$this->template()->setHeader(array( 
+				'popcliqs.js' 		   			=> 'module_popcliqsevents' , 
+				'easeljs-0.6.0.min.js' 			=> 'module_popcliqsevents' , 
+				'Log.js' 			  		    => 'module_popcliqsevents' , 
+				'tweenjs-0.4.0.min.js' 			=> 'module_popcliqsevents' ,
+				'popup.js'			   			=> 'module_popcliqsevents' ,
+				'SpryTabbedPanels.js'			=> 'module_popcliqsevents' , 
+				'jquery.dragsort-0.5.1.min.js'	=> 'module_popcliqsevents' ,
+				'jquery-ui.js'					=> 'module_popcliqsevents' ,
+				'simple-slider.js'				=> 'module_popcliqsevents'
+		)); 
+		
+		$this->template()->setHeader(array( 
+				'popup.css' 		   			=> 'module_popcliqsevents' ,
+				'SpryTabbedPanels.css'			=> 'module_popcliqsevents' ,
+				'jquery-ui.css'					=> 'module_popcliqsevents' , 
+				'style.css'						=> 'module_popcliqsevents' ,
+				'simple-slider.css'				=> 'module_popcliqsevents' ,
+				'simple-slider-volume.css'		=> 'module_popcliqsevents'
+		));		
+		
+		//Script 
+		$this->template()->setHeader(array( 
+                '<script type="text/javascript">$(document).ready(function(){ init('
+                	.Phpfox::getUserId().' , '.$time_interval.','. $cat_type .' , "'. $search_t .'"); }); </script>'
+    	)); 
+		
+		//Fetch event category and set 
+		$aCategories = Phpfox::getService('event.category')->getForBrowse();
+		$this->template()->assign('aCategories', $aCategories); 
+
+
+	} 
+
+
+} 
+
+?>

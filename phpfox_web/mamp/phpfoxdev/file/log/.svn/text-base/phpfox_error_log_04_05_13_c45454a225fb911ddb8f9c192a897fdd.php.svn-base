@@ -1,0 +1,71 @@
+<?php defined('PHPFOX') or exit('NO DICE!');  ?>##
+a:4:{s:7:"message";s:19:"Undefined index: db";s:9:"backtrace";s:704:"array (
+  0 => 
+  array (
+    'file' => '/Users/tahirimran/Tahir /Development/popcliq/phpfox/svn/phpfox_dev/mamp/phpfoxdev/include/library/phpfox/phpfox/phpfox.class.php',
+    'line' => 233,
+  ),
+  1 => 
+  array (
+    'file' => '/Users/tahirimran/Tahir /Development/popcliq/phpfox/svn/phpfox_dev/mamp/phpfoxdev/include/library/phpfox/phpfox/phpfox.class.php',
+    'line' => 329,
+  ),
+  2 => 
+  array (
+    'file' => '/Users/tahirimran/Tahir /Development/popcliq/phpfox/svn/phpfox_dev/mamp/phpfoxdev/include/init.inc.php',
+    'line' => 87,
+  ),
+  3 => 
+  array (
+    'file' => '/Users/tahirimran/Tahir /Development/popcliq/phpfox/svn/phpfox_dev/mamp/phpfoxdev/install/index.php',
+    'line' => 30,
+  ),
+)";s:7:"request";s:307:"array (
+  'phpfoxuser_id' => '1',
+  'phpfoxuser_hash' => '8a508f530990519276c13a3c97759df6f564dadd8b08fb4ddf',
+  'PHPSESSID' => 'd791d03cfc2c997d1666bc2736dd04bc',
+  'core1d17visit' => '1367500593',
+  'core1d17user_id' => '1',
+  'core1d17user_hash' => '9742e9dff812bf20f0066afb02f9fbd0fc0b0bd084d790cadb',
+)";s:2:"ip";s:3:"::1";}##
+<?php defined('PHPFOX') or exit('NO DICE!');  ?>##
+a:4:{s:7:"message";s:86:"Cross site forgery request (CSFR) detected.  Please note all such attempts are logged.";s:9:"backtrace";s:718:"array (
+  0 => 
+  array (
+    'file' => '/Users/tahirimran/Tahir /Development/popcliq/phpfox/svn/phpfox_dev/mamp/phpfoxdev/include/library/phpfox/error/error.class.php',
+    'line' => 95,
+  ),
+  1 => 
+  array (
+    'file' => '/Users/tahirimran/Tahir /Development/popcliq/phpfox/svn/phpfox_dev/mamp/phpfoxdev/module/log/include/service/session.class.php',
+    'line' => 87,
+  ),
+  2 => 
+  array (
+    'file' => '/Users/tahirimran/Tahir /Development/popcliq/phpfox/svn/phpfox_dev/mamp/phpfoxdev/include/library/phpfox/phpfox/phpfox.class.php',
+    'line' => 1168,
+  ),
+  3 => 
+  array (
+    'file' => '/Users/tahirimran/Tahir /Development/popcliq/phpfox/svn/phpfox_dev/mamp/phpfoxdev/index.php',
+    'line' => 42,
+  ),
+)";s:7:"request";s:519:"array (
+  'do' => '/user/login/',
+  'core' => 
+  array (
+    'security_token' => '759e798bd9275b7083f2e384616776d8',
+  ),
+  'val' => 
+  array (
+    'login' => 'tahir@popcliqs.com',
+    'remember_me' => '',
+    'password' => 'Bubble@2012',
+  ),
+  'corea23cvisit' => '1367687225',
+  'PHPSESSID' => '60d58c38a2403dcfbc6cd6fb0d811381',
+  'core1d17user_hash' => '7b38a5ac40330252cb9f4968212dd8c2364158613212ba6a4f',
+  'core1d17user_id' => '1',
+  'wp-settings-1' => 'editor=tinymce',
+  'wp-settings-time-1' => '1361016397',
+)";s:2:"ip";s:3:"::1";}##

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/feed/include/component/controller
+END
+index.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/feed/include/component/controller/index.class.php
+END
+view.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/feed/include/component/controller/view.class.php
+END
+user.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/feed/include/component/controller/user.class.php
+END
+view-mobile.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/feed/include/component/controller/view-mobile.class.php
+END
+user-mobile.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/feed/include/component/controller/user-mobile.class.php
+END

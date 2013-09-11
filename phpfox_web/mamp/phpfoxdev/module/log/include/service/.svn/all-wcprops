@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/openit_pq/!svn/ver/13/phpfox_dev/mamp/phpfoxdev/module/log/include/service
+END
+block.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/openit_pq/!svn/ver/13/phpfox_dev/mamp/phpfoxdev/module/log/include/service/block.class.php
+END
+callback.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/openit_pq/!svn/ver/13/phpfox_dev/mamp/phpfoxdev/module/log/include/service/callback.class.php
+END
+process.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/openit_pq/!svn/ver/13/phpfox_dev/mamp/phpfoxdev/module/log/include/service/process.class.php
+END
+log.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/openit_pq/!svn/ver/13/phpfox_dev/mamp/phpfoxdev/module/log/include/service/log.class.php
+END
+session.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/openit_pq/!svn/ver/13/phpfox_dev/mamp/phpfoxdev/module/log/include/service/session.class.php
+END
+staff.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/openit_pq/!svn/ver/13/phpfox_dev/mamp/phpfoxdev/module/log/include/service/staff.class.php
+END

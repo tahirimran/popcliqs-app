@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/group/include/component/controller
+END
+secret.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/group/include/component/controller/secret.class.php
+END
+index.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/group/include/component/controller/index.class.php
+END
+add.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/group/include/component/controller/add.class.php
+END
+forum.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/group/include/component/controller/forum.class.php
+END
+view.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/group/include/component/controller/view.class.php
+END
+category.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/group/include/component/controller/category.class.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/group/include/component/controller/index.html
+END
+redirect.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/openit_pq/!svn/ver/12/phpfox_dev/mamp/phpfoxdev/module/group/include/component/controller/redirect.class.php
+END

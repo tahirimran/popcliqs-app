@@ -1,0 +1,17 @@
+<product>
+	<data>
+		<product_id>popcliqs</product_id>
+		<is_core>0</is_core>
+		<title>Popcliqs</title>
+		<description>Popcliqs Events</description>
+		<version>1.0</version>
+		<latest_version></latest_version>
+		<last_check>1367697274</last_check>
+		<is_active>1</is_active>
+		<url>http://www.popcliqs.com</url>
+		<url_version_check>http://www.popcliqs.com/version.php</url_version_check>
+	</data>
+	<modules>
+		<module_id>popcliqsevents</module_id>
+	</modules>
+</product>

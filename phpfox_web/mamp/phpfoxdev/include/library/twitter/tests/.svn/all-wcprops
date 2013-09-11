@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/twitter/tests
+END
+sequencerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/twitter/tests/sequencerTest.php
+END
+AllTests.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/twitter/tests/AllTests.php
+END
+avatar_test_image.png
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/twitter/tests/avatar_test_image.png
+END
+EpiOAuthTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/twitter/tests/EpiOAuthTest.php
+END
+EpiTwitterTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/twitter/tests/EpiTwitterTest.php
+END
+avatar_test_image.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/openit_pq/!svn/ver/6/phpfox_dev/mamp/phpfoxdev/include/library/twitter/tests/avatar_test_image.jpg
+END

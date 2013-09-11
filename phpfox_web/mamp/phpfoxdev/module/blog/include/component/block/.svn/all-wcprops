@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/blog/include/component/block
+END
+categories.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/blog/include/component/block/categories.class.php
+END
+new.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/blog/include/component/block/new.class.php
+END
+add-category-list.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/blog/include/component/block/add-category-list.class.php
+END
+display-options.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/blog/include/component/block/display-options.class.php
+END
+preview.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/blog/include/component/block/preview.class.php
+END
+share.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/blog/include/component/block/share.class.php
+END
+top.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/blog/include/component/block/top.class.php
+END
+menu.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/openit_pq/!svn/ver/11/phpfox_dev/mamp/phpfoxdev/module/blog/include/component/block/menu.class.php
+END

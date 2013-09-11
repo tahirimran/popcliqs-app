@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/controller
+END
+add.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/controller/add.class.php
+END
+frame.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/controller/frame.class.php
+END
+rate.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/controller/rate.class.php
+END
+group.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/controller/group.class.php
+END
+profile.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/controller/profile.class.php
+END
+album.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/controller/album.class.php
+END
+index.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/controller/index.class.php
+END
+download.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/controller/download.class.php
+END
+size.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/controller/size.class.php
+END
+view.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/controller/view.class.php
+END
+battle.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/controller/battle.class.php
+END
+tag.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/controller/tag.class.php
+END
+public-album.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/controller/public-album.class.php
+END
+converting.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/controller/converting.class.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/controller/index.html
+END
+edit-album.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/controller/edit-album.class.php
+END
+albums.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/controller/albums.class.php
+END
+upload.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/component/controller/upload.class.php
+END

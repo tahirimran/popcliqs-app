@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/service/album
+END
+process.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/service/album/process.class.php
+END
+album.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/service/album/album.class.php
+END
+browse.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/openit_pq/!svn/ver/15/phpfox_dev/mamp/phpfoxdev/module/photo/include/service/album/browse.class.php
+END

@@ -1,0 +1,149 @@
+<div id="popupnewevent" class="popup">
+    <div class="top">
+      <span><h2>Create a New Event</h2></span>
+    <a id="popupneweventClose" class="popupClose"><img src="./module/popcliqsevents/static/image/close_btn1.png" border="0" alt="Close" width="24" height="25"></a>
+        </div>
+        <div class="foArea">
+
+    <!-- Form Code Start -->
+<form id='contactus'>
+
+<fieldset >
+
+<div class='formcontainer'>
+    <label for='etitle' >Event Name :</label>
+    <textarea rows="2" cols="45" id='etitle'></textarea>
+</div>
+<div class='formcontainer'>
+    <label for='message' >Description :</label>
+    <textarea rows="4" cols="45" id='edesc'></textarea>
+</div>
+<div class='formcontainer'>
+    <label for='name' >Category : </label>
+    <select id="ecategory">
+    <option value="">[Select]</option>
+    {foreach from=$aCategories item=aCategory}
+       <option value="{$aCategory.category_id}">{$aCategory.name}</option>
+
+    {/foreach}
+   
+    </select>
+</div>
+
+<div class='formcontainer'>
+    <label for='loc' >Location :</label>
+    <input type='text'  id='eloc' placeholder='Venue' maxlength='40' />
+</div>
+<div class='formcontainer'>
+    <label for='address' >Address :</label>
+    <input type='text'  id='eaddress' value='' maxlength='40' />
+</div>
+<div class='formcontainer'>
+    <label for='city' >City :</label>
+    <input type='text'  id='ecity' value='' maxlength='40' />
+</div>
+<div class='formcontainer'>
+    <label for='state' >State :</label>
+    <input type='text'  id='estate' value='' maxlength='40' />
+</div>
+<div class='formcontainer'>
+    <label for='zip' >Zip Code :</label>
+    <input type='text'  id='ezip' value='' maxlength='40' />
+</div>
+<div class='formcontainer'>
+  <label for='agelimit' >Age Limit :</label>
+    <select id="eagelimit">
+    <option value="no">None</option>
+    <option value="l1">Below 12</option>
+    <option value="l2">Teens only</option>
+    <option value="l3">Above 18</option>
+    <option value="l4">Above 21</option>
+    </select>
+</div>
+<div class='formcontainer'>
+    <label for='sizelimit' >Capacity limit :</label>
+    <input type='text'  id='esizelimit' value='' maxlength='5' />
+    
+</div>
+<div class='formcontainer'>
+    <label for='message' >Start Time :</label>
+    <input type='text'  id='startTime' placeholder="mm/dd/yyyy" value='' maxlength='10' style="width:80px;display:inline" />
+    <select id="st_hr" style="width:70px;">
+        <option value="00">12 AM</option>
+        <option value="01">1 AM</option>
+        <option value="02">2 AM</option>   
+        <option value="03">3 AM</option>
+        <option value="04">4 AM</option>
+        <option value="05">5 AM</option>   
+        <option value="06">6 AM</option>
+        <option value="07">7 AM</option>
+        <option value="08">8 AM</option>   
+        <option value="09">9 AM</option>   
+        <option value="10">10 AM</option>
+        <option value="11">11 AM</option>
+        <option value="12">12 Noon</option>   
+        <option value="13">1 PM</option>
+        <option value="14">2 PM</option>
+        <option value="15">3 PM</option>
+        <option value="16">4 PM</option>
+        <option value="17">5 PM</option>
+        <option value="18">6 PM</option>
+        <option value="19">7 PM</option>
+        <option value="20">8 PM</option>
+        <option value="21">9 PM</option> 
+        <option value="22">10 PM</option>
+        <option value="23">11 PM</option>
+    </select>
+
+</div>
+<div class='formcontainer'>
+    <label for='message' >End Time :</label>
+    <input type='text'  id='endTime' placeholder="mm/dd/yyyy" value='' maxlength='20' style="width:80px;display:inline"/>
+    <select id="et_hr" style="width:70px;">
+        <option value="00">12 AM</option>
+        <option value="01">1 AM</option>
+        <option value="02">2 AM</option>   
+        <option value="03">3 AM</option>
+        <option value="04">4 AM</option>
+        <option value="05">5 AM</option>   
+        <option value="06">6 AM</option>
+        <option value="07">7 AM</option>
+        <option value="08">8 AM</option>   
+        <option value="09">9 AM</option>   
+        <option value="10">10 AM</option>
+        <option value="11">11 AM</option>
+        <option value="12">12 Noon</option>   
+        <option value="13">1 PM</option>
+        <option value="14">2 PM</option>
+        <option value="15">3 PM</option>
+        <option value="16">4 PM</option>
+        <option value="17">5 PM</option>
+        <option value="18">6 PM</option>
+        <option value="19">7 PM</option>
+        <option value="20">8 PM</option>
+        <option value="21">9 PM</option> 
+        <option value="22">10 PM</option>
+        <option value="23">11 PM</option>
+    </select>
+</div>
+
+
+<div class='formcontainer'>
+  <div align="right" style="padding-left: 283px">
+  <a id="popupneweventAdd"> 
+  <img src="./module/popcliqsevents/static/image/go_btn.png" align="left" alt="btn" width="112" height="46" border="0">
+  </a>
+  </div>
+    
+</div>
+
+</fieldset>
+</form>
+  
+     
+        
+       </div>   
+  
+  
+        
+</div><!-- end of popupnewevent -->

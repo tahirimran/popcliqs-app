@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/openit_pq/!svn/ver/10/phpfox_dev/mamp/phpfoxdev/module/attachment/include/component/block
+END
+add.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/openit_pq/!svn/ver/10/phpfox_dev/mamp/phpfoxdev/module/attachment/include/component/block/add.class.php
+END
+list.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/openit_pq/!svn/ver/10/phpfox_dev/mamp/phpfoxdev/module/attachment/include/component/block/list.class.php
+END
+archive.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/openit_pq/!svn/ver/10/phpfox_dev/mamp/phpfoxdev/module/attachment/include/component/block/archive.class.php
+END
+current.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/openit_pq/!svn/ver/10/phpfox_dev/mamp/phpfoxdev/module/attachment/include/component/block/current.class.php
+END
+share.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/openit_pq/!svn/ver/10/phpfox_dev/mamp/phpfoxdev/module/attachment/include/component/block/share.class.php
+END
+upload.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/openit_pq/!svn/ver/10/phpfox_dev/mamp/phpfoxdev/module/attachment/include/component/block/upload.class.php
+END
