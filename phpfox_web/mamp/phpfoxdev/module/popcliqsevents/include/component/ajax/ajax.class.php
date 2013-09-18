@@ -43,7 +43,6 @@ class Popcliqsevents_Component_Ajax_Ajax extends Phpfox_Ajax
           $this->get('e_min'), 0, $pieces[0], $pieces[1], $pieces[2]);
 
 
-    if ($iStartTime > $iEndTime)
     if ($iStartTime >= $iEndTime)
     { 
         $this->alert(" Start time cannot be greater than the End time" );
@@ -60,9 +59,50 @@ class Popcliqsevents_Component_Ajax_Ajax extends Phpfox_Ajax
     $eagelimit   = $this->get('eagelimit');
     $esizelimit  = $this->get('esizelimit');
     $edesc       = $this->get('edesc');
+    $eId         = $this->get('eId');
     
-    $this->alert( " Event was  $etitle $edesc  " );
-    
+    if ($eId != -1 ){
+
+      $where_c =  "event_id = $eId";
+      // Update call 
+      $aSql = array(
+          'view_id'            => '0',
+          'privacy'            => '0',
+          'privacy_comment'    => '0',
+          'module_id'          => 'event',
+          'item_id'            =>  0,
+          'user_id'            => Phpfox::getUserId(),
+          'title'              => $etitle,
+          'location'           => $oParseInput->clean( $eloc , 255),
+          'country_iso'        => (empty($aVals['country_iso']) ? Phpfox::getUserBy('country_iso') : $aVals['country_iso']),
+          'country_child_id'   => (isset($aVals['country_child_id']) ? (int) $aVals['country_child_id'] : 0),
+          'postal_code'        => (empty($ezip) ? null : Phpfox::getLib('parse.input')->clean($ezip, 20)),
+          'city'               => (empty($ecity ) ? null : $oParseInput->clean($ecity , 255)),
+          'age_limit'          => $eagelimit, 
+          'time_stamp'         => PHPFOX_TIME,
+          'start_time'         => Phpfox::getLib('date')->convertToGmt($iStartTime),
+          'end_time'           => Phpfox::getLib('date')->convertToGmt($iEndTime),
+          'start_gmt_offset'   => Phpfox::getLib('date')->getGmtOffset($iStartTime),
+          'end_gmt_offset'     => Phpfox::getLib('date')->getGmtOffset($iEndTime),
+          'address'            => (empty($eaddress) ? null : Phpfox::getLib('parse.input')->clean($eaddress))
+      );
+      
+      $iId = Phpfox::getLib('database')->update($this->_sTable, $aSql, $where_c );
+      $this->call('disablePopup();');
+      $this->alert('Event was successfully updated !!! ');
+
+      Phpfox::getLib('database')->update(Phpfox::getT('event_text'), array(
+          'description' => (empty($edesc) ? null : $edesc),
+          'description_parsed' => (empty($edesc) ? null : $oParseInput->prepare($edesc) )
+        ),  $where_c
+      ); 
+
+      Phpfox::getLib('database')->update(Phpfox::getT('event_category_data'), 
+         array('category_id' => $ecategory) ,  $where_c );
+  
+
+      return;
+    }
 
     $aSql = array(
           'view_id'            => '0',
@@ -85,8 +125,11 @@ class Popcliqsevents_Component_Ajax_Ajax extends Phpfox_Ajax
           'end_gmt_offset'     => Phpfox::getLib('date')->getGmtOffset($iEndTime),
           'address'            => (empty($eaddress) ? null : Phpfox::getLib('parse.input')->clean($eaddress))
     );
+
+  
   //$this->alert('Event was ' . $iStartTime  . ' ' . $iEndTime );
   $iId = Phpfox::getLib('database')->insert($this->_sTable, $aSql);
+   $this->call('disablePopup();');
   $this->alert('Event was successfully created !!! ');
 
   Phpfox::getLib('database')->insert(Phpfox::getT('event_text'), array(
@@ -203,7 +246,9 @@ public function fetchIntEvent()
 
           //  and e.start_time >  '. PHPFOX_TIME  . 
           if($aRow['start_time']  > PHPFOX_TIME ){
-            $html_string = $html_string . '<td height="25" align="left" valign="middle" bgcolor="#8CDAFF"><a href="#" onclick="delete_event('.Phpfox::getUserId() .','.$aRow['event_id'].')" >C</a></td>';
+            $html_string = $html_string . '<td height="25" align="left" valign="middle" bgcolor="#8CDAFF">
+            <a href="#" onclick="delete_event('.Phpfox::getUserId() .','.$aRow['event_id'].')" >C</a>
+            <a href="#" onclick="edit_event('.Phpfox::getUserId() .','.$aRow['event_id'].')" >E</a></td>';
           
           }else{
             $html_string = $html_string . '<td height="25" align="left" valign="middle" bgcolor="#8CDAFF"></td>';
