@@ -9,6 +9,7 @@
 
 <fieldset >
 
+<input type="hidden" id='eid' value="-1"></textarea>
 <div class='formcontainer'>
     <label for='etitle' >Event Name :</label>
     <textarea rows="2" cols="45" id='etitle'></textarea>

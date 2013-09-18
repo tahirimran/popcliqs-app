@@ -44,6 +44,7 @@ class Popcliqsevents_Component_Ajax_Ajax extends Phpfox_Ajax
 
 
     if ($iStartTime > $iEndTime)
+    if ($iStartTime >= $iEndTime)
     { 
         $this->alert(" Start time cannot be greater than the End time" );
     }

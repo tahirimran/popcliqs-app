@@ -263,10 +263,11 @@ function get_event_by_id($event_id , $conn , $tz){
 
 	$query = "select * from 
 				phpfox_event as evt, phpfox_event_category_data  as cat ,
-				phpfox_event_category as evt_cat 
+				phpfox_event_category as evt_cat , phpfox_event_text  as evt_desc
 				where evt.event_id = :eid  and 
 				evt.event_id = cat.event_id and 
-				cat.category_id = evt_cat.category_id
+				cat.category_id = evt_cat.category_id and 
+				evt.event_id =  evt_desc.event_id
 				";
 
 	$binding = array(
@@ -275,6 +276,8 @@ function get_event_by_id($event_id , $conn , $tz){
 	$results = execute( $query, $conn , $binding );
 
 	if($results){
+
+		//var_dump($results);
 
 		extract($results);
 
@@ -297,7 +300,12 @@ function get_event_by_id($event_id , $conn , $tz){
 		$user_event->postal_code	= $postal_code;
 		$user_event->category   	= $name;
 		$user_event->category_id   	= $category_id;
-
+		$user_event->description    = $description;
+		$user_event->age_limit      = $age_limit;
+		
+		$user_event->start_dt       =  date('m', $start_time) .'/'. date('d', $start_time) . '/' . date('Y', $start_time);
+		$user_event->end_dt         =  date('m', $end_time)   .'/'. date('d', $end_time)   . '/' . date('Y', $end_time);
+		//var_dump($user_event);
 		$event_data[] = $user_event;
 		
 	}

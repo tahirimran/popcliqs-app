@@ -152,7 +152,7 @@ select
 */
 #header
 {
-	background:rgb(77, 152, 204) url('../image/layout/popcliqs_header.jpg') repeat-y;	
+	background:rgb(77, 152, 204) url('../image/layout/popcliqs_header.png') repeat-x;	
 	color:#fff;	
 	height:100px;
 }

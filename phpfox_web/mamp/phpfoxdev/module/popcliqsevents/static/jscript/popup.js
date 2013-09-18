@@ -9,31 +9,49 @@ var popupStatus = 0;
 var popid; 
 
 var $event_id; 
+
+
+
 //loading popup with jQuery magic!
-function loadPopup(id, evt_id , $user_id){
+function loadPopup(id, evt_id , $user_id, $mode){
 	
 	if(evt_id != null){
-
 		$.getJSON('./module/popcliqsevents/static/php/event.service.php?eventId='+ evt_id + "&user_id="+ $user_id, 
 			function(data , status) {
   				$.each(data, function(i, eventobj){
   				
   					$event_id = evt_id;
+  					if( $mode == "edit"){
+  						$("#eid").val($event_id);
+  						$("#etitle").val(eventobj.title);
+  						$("#edesc").val(eventobj.description);
+  						$("#ecategory").val(eventobj.typeid) ; 
+  						$("#eloc").val(eventobj.location) ; 
+  						$("#eaddress").val(eventobj.address) ; 
+  						$("#ecity").val(eventobj.city) ; 
+  						$("#ezip").val(eventobj.postal_code) ; 
+  						$("input[name=eagelimit][value=" + eventobj.age_limit + "]").attr('checked', 'checked');
+  						$("#st_hr").val(eventobj.st_time);
+  						$("#et_hr").val(eventobj.ed_time);
 
-      				$("#title").text(eventobj.title);
-      				$("#type").text(eventobj.type); 
-      				$("#stime").text(eventobj.st_time); 
-      				$("#etime").text(eventobj.ed_time); 
+  						$("#startTime").val(eventobj.st_dt);
+  						$("#endTime").val(eventobj.ed_dt);
 
-      				$("#location").text(eventobj.location); 
-      				$("#address").text(eventobj.address); 
-      				$("#city").text(eventobj.city); 
-      				$("#postal_code").text(eventobj.postal_code); 
-      				$("#distance").text(eventobj.distance); 
-      				if(eventobj.rsvp == 1 ){
-      					$("#popupEventDetails").hide();
-      				}
-      				
+  					}else{
+	      				$("#title").text(eventobj.title);
+	      				$("#type").text(eventobj.type); 
+	      				$("#stime").text(eventobj.st_time); 
+	      				$("#etime").text(eventobj.ed_time); 
+
+	      				$("#location").text(eventobj.location); 
+	      				$("#address").text(eventobj.address); 
+	      				$("#city").text(eventobj.city); 
+	      				$("#postal_code").text(eventobj.postal_code); 
+	      				$("#distance").text(eventobj.distance); 
+	      				if(eventobj.rsvp == 1 ){
+	      					$("#popupEventDetails").hide();
+	      				}
+	      			}	
     			});
     		}
 	    );
@@ -97,8 +115,20 @@ function disablePopup(){
 			poppedBubble.gotoAndStop('stand');
 		}
 		
+		if(popid == "popupnewevent"){
+
+			resetForm('contactus');
+		}
+
+
 	}
 }
+function resetForm(id) {
+	$('#'+id).each(function(){
+	        this.reset();
+	});
+}
+
 
 //centering popup
 function centerPopup(id){
@@ -199,6 +229,8 @@ $(document).ready(function(){
 	});
 	
 	$("#popupneweventAdd").click(function(){
+
+
 		
 		if ( $('#etitle').val() == null || $('#etitle').val() == "" ){
 	      alert(" Invalid Title" );
@@ -246,22 +278,28 @@ $(document).ready(function(){
 		var $edesc		= $('#edesc').val();
 		var $s_dt       = $('#startTime').val();
 		var $e_dt       = $('#endTime').val();
+		var $eId        = -1;
 
+		if($('#eid') != null && $('#eid').val().trim() != "") {
+			$eId  = $('#eid').val();
+		}
+		
 		var $eagelimitVal = "";
 		var eagelimit = $("input[type='radio'][name='eagelimit']:checked");
 		if (eagelimit.length > 0){
     		$eagelimitVal = eagelimit.val();
 		}
 		
-		disablePopup();
+		
 		$.ajaxCall('popcliqsevents.addEvent' , 
-					'etitle='      + $etitle     + '&ecategory=' + $ecategory    +
-					'&eloc='       + $eloc       + '&eaddress='  + $eaddress     +
-					'&ecity='      + $ecity      + '&estate='    + $estate       +
-					'&ezip='       + $ezip       + '&eagelimit=' + $eagelimitVal +
-					'&esizelimit=' + $esizelimit + '&edesc='     + $edesc        +
-					'&s_dt='       + $s_dt       +  '&st_hr='    + $st_hour      + '&st_min='   + $st_min   +
-					'&e_dt='       + $e_dt       +  '&et_hr='    + $e_hour       + '&e_min='    + $e_min   
+			'etitle='      + $etitle     + '&ecategory=' + $ecategory    +
+			'&eloc='       + $eloc       + '&eaddress='  + $eaddress     +
+			'&ecity='      + $ecity      + '&estate='    + $estate       +
+			'&ezip='       + $ezip       + '&eagelimit=' + $eagelimitVal +
+			'&esizelimit=' + $esizelimit + '&edesc='     + $edesc        +
+			'&s_dt='       + $s_dt       +  '&st_hr='    + $st_hour      + '&st_min='   + $st_min   +
+			'&e_dt='       + $e_dt       +  '&et_hr='    + $e_hour       + '&e_min='    + $e_min    + 
+			'&eId='       + $eId  
  		);		
 	});
 	
@@ -295,4 +333,12 @@ function delete_event(user_id, event_id){
 	$.ajaxCall('popcliqsevents.deleteIntEvent' , queryStr  );
 	setTimeout(fetchIntEvt() ,1000*10);
 	
+}
+
+function edit_event(user_id, event_id){
+
+	disablePopup();
+	centerPopup("popupnewevent");
+	loadPopup("popupnewevent", event_id , user_id , "edit");
+
 }

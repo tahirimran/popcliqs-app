@@ -6,6 +6,8 @@ Class User_Event {
 	public $rank;
 	public $distance;
 	public $pref_code;
+	public $start_dt;
+	public $end_dt;
 	public $start_time;
 	public $end_time;
 	public $category_id;
@@ -17,6 +19,8 @@ Class User_Event {
 	public $category;
 	public $lat;
 	public $lon;
+	public $description;
+	public $age_limit;
 
 	public $size;
 	public $mratio = 0.5;
