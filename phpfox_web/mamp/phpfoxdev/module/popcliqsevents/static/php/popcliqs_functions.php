@@ -14,7 +14,7 @@ function getSplashEvent($conn , $start_t  , $end_t , $latlong , $search_term , $
 			phpfox_event as evt , phpfox_event_category_data  as cat , zipgeo as zips , phpfox_event_text as e_txt
 			WHERE  evt.start_time >= :st and evt.start_time <= :et  and evt.event_id = cat.event_id 
 			and evt.postal_code = zips.zip5  and zips.lat between :lat1 and :lat2 and zips.lon between :lon1 and :lon2 
-			and evt.event_id = e_txt.event_id and evt.age_limit < $age
+			and evt.event_id = e_txt.event_id and evt.age_limit < $age and evt.is_active = 1 
 			and (
 				evt.title LIKE :search_t or evt.location    LIKE :search_t or   
 				evt.city  LIKE :search_t or evt.postal_code LIKE :search_t or 

@@ -216,7 +216,7 @@ $(document).ready(function(){
 		birthday = bMon +  bday +  byr;
 		//alert (birthday);
 
-		if (home_zip == null || home_zip == " "  || home_zip.length  != 5){
+		if (home_zip == null || home_zip == " "  || home_zip.length  != 5 || !isNumber(home_zip)){
 	     	alert(" Invalid Zip" );
 	     	return;
 	    }
@@ -228,6 +228,10 @@ $(document).ready(function(){
 
 	});
 	
+	function isNumber(n) {
+  		return !isNaN(parseFloat(n)) && isFinite(n);
+	}
+
 	$("#popupneweventAdd").click(function(){
 
 
@@ -251,7 +255,7 @@ $(document).ready(function(){
 	      return;
 	    }
 
-	    if ($('#ezip').val() == null || $('#ezip').val() == ""  ){
+	    if ($('#ezip').val() == null || $('#ezip').val() == ""  || $('#ezip').val().length  != 5 || !isNumber($('#ezip').val()) ){
 	     	alert(" Invalid Zip" );
 	     	return;
 	    }

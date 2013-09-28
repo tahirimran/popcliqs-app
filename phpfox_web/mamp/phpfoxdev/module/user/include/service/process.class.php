@@ -141,6 +141,8 @@ class User_Service_Process extends Phpfox_Service
 			}
 		}
 		
+
+
 		if (!defined('PHPFOX_INSTALLER') && Phpfox::getParam('user.split_full_name'))
 		{
 			if (empty($aVals['first_name']) || empty($aVals['last_name']))
@@ -165,6 +167,12 @@ class User_Service_Process extends Phpfox_Service
 			if ($aCustomField['on_signup'] && $aCustomField['is_required'] && empty($aCustom[$aCustomField['field_id']]))
 			{
 				Phpfox_Error::set(Phpfox::getPhrase('user.the_field_field_is_required', array('field' => Phpfox::getPhrase($aCustomField['phrase_var_name']))));
+			}else if ( 'home zip' == Phpfox::getPhrase($aCustomField['phrase_var_name']) ) {
+
+				$zip_val = $aCustom[$aCustomField['field_id']]; 
+				if(strlen($zip_val) != 5 || !( is_numeric($zip_val))){
+					Phpfox_Error::set('Please provide a valid Zip code. ');
+				}
 			}
 		}
 		
