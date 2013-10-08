@@ -155,12 +155,13 @@ select
 	background:rgb(77, 152, 204) url('../image/layout/popcliqs_header.png') repeat-x;	
 	color:#fff;	
 	height:100px;
+
 }
 
 #header_holder
 {
 	position:relative;
-	z-index:1001;	
+	z-index:1;	
 }
 
 #header_menu_page_holder

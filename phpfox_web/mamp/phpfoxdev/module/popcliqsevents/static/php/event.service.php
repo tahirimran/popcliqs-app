@@ -4,10 +4,12 @@ require('db.php');
 require('popcliqs_functions.php');
 require('user_event_class.php');
 
+date_default_timezone_set("UTC");  
 $event_id=$_GET["eventId"]; 
 $user_id=$_GET["user_id"]; 
 
-$tz = isset($_GET["tz"]) ? $_GET["tz"] : -330 ;
+$tz = isset($_GET["tz"]) ? $_GET["tz"] : 0 ;
+
 
 $conn = connect ($config);
 $event_data = get_event_by_id($event_id , $conn , $tz );

@@ -16,7 +16,9 @@ var $event_id;
 function loadPopup(id, evt_id , $user_id, $mode){
 	
 	if(evt_id != null){
-		$.getJSON('./module/popcliqsevents/static/php/event.service.php?eventId='+ evt_id + "&user_id="+ $user_id, 
+		var dt = new Date();
+		var tz = dt.getTimezoneOffset();
+		$.getJSON('./module/popcliqsevents/static/php/event.service.php?eventId='+ evt_id + "&user_id="+ $user_id + '&tz=' +tz , 
 			function(data , status) {
   				$.each(data, function(i, eventobj){
   				
@@ -33,8 +35,7 @@ function loadPopup(id, evt_id , $user_id, $mode){
   						$("input[name=eagelimit][value=" + eventobj.age_limit + "]").attr('checked', 'checked');
   						$("#st_hr").val(eventobj.st_time);
   						$("#et_hr").val(eventobj.ed_time);
-
-  						$("#startTime").val(eventobj.st_dt);
+						$("#startTime").val(eventobj.st_dt);
   						$("#endTime").val(eventobj.ed_dt);
 
   					}else{
@@ -327,7 +328,11 @@ $(document).ready(function(){
 });
 
 function fetchIntEvt(){
-	$.ajaxCall('popcliqsevents.fetchIntEvent' );
+
+	var dt = new Date();
+	var tz = dt.getTimezoneOffset();
+	var queryStr =  'tz='+ tz; 
+	$.ajaxCall('popcliqsevents.fetchIntEvent' , queryStr);
 }
 
 

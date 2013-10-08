@@ -208,6 +208,12 @@ class Popcliqsevents_Component_Ajax_Ajax extends Phpfox_Ajax
 
 public function fetchIntEvent()
 {
+  date_default_timezone_set("UTC");  
+  
+  $tz = $this->get('tz');
+  $time_compare  = time();
+  $time_compare  = $time_compare - (60 *  $tz);
+
   $aRows = Phpfox::getLib('database')->select('*')
             ->from(Phpfox::getT('event') , 'e'  )
             ->join(Phpfox::getT('event_category_data'), 'ec', 'e.event_id = ec.event_id')
@@ -236,7 +242,9 @@ public function fetchIntEvent()
             . date('h', $strs) . ":00 " 
             . date('A', $strs) ;
         
-        
+         
+           
+
          $html_string = $html_string . 
          '<tr>
           <td height="25" align="left" valign="middle" bgcolor="#8CDAFF">'.$dt_time_str.' </td>
@@ -244,8 +252,8 @@ public function fetchIntEvent()
           <td height="25" align="left" valign="middle" bgcolor="#8CDAFF">0</td>
           <td align="left" valign="middle" bgcolor="#8CDAFF">'.$aRow['name'].'</td>';
 
-          //  and e.start_time >  '. PHPFOX_TIME  . 
-          if($aRow['start_time']  > PHPFOX_TIME ){
+          //  and e.start_time >  '. PHPFOX_TIME  .
+          if($aRow['start_time']  > $time_compare ){
             $html_string = $html_string . '<td height="25" align="left" valign="middle" bgcolor="#8CDAFF">
             <a href="#" onclick="delete_event('.Phpfox::getUserId() .','.$aRow['event_id'].')" >C</a>
             <a href="#" onclick="edit_event('.Phpfox::getUserId() .','.$aRow['event_id'].')" >E</a></td>';

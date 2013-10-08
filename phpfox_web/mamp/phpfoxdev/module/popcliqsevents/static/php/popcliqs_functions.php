@@ -74,7 +74,7 @@ function get_user_events($results){
 	if($results){
 		foreach( $results as $row){
 			extract($row);
-
+		
 			$evt_hr = date('H', $start_time) ;
 			$user_event 				= new User_Event();
 			$user_event->event_id		= $event_id;
@@ -280,9 +280,6 @@ function get_event_by_id($event_id , $conn , $tz){
 		//var_dump($results);
 
 		extract($results);
-
-		$start_time  = $start_time + (60 *  $tz);
-		$end_time    = $end_time   + (60 *  $tz);
 
 		$st_evt_hr = date('H', $start_time) ;
 		$st_evt_mn = date('i', $start_time) ;
