@@ -30,7 +30,8 @@ function fetch_checkin_event($conn ,$user_id , $start_t){
 				select invt.event_id from phpfox_event_invite  as invt , phpfox_event as evt where invt.rsvp_id = 1 
 				and invt.user_id = :uid 
 				and invt.event_id = evt.event_id  
-				and start_time >  :start_t
+				and start_time >  :start_t 
+				and evt.is_active = 1
 			";
 
 	$binding = array( 

@@ -303,6 +303,7 @@ function get_event_by_id($event_id , $conn , $tz){
 		$user_event->age_limit      = $age_limit;
 		$user_event->lat      		= $latlong['lat'];
 		$user_event->lon      		= $latlong['lon'];
+		$user_event->creator        = $user_id;
 		
 		$user_event->start_dt       =  date('m', $start_time) .'/'. date('d', $start_time) . '/' . date('Y', $start_time);
 		$user_event->end_dt         =  date('m', $end_time)   .'/'. date('d', $end_time)   . '/' . date('Y', $end_time);

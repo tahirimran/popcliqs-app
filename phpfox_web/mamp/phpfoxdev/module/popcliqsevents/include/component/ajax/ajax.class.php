@@ -46,6 +46,7 @@ class Popcliqsevents_Component_Ajax_Ajax extends Phpfox_Ajax
     if ($iStartTime >= $iEndTime)
     { 
         $this->alert(" Start time cannot be greater than the End time" );
+        return;
     }
     
     $oParseInput = Phpfox::getLib('parse.input');   
@@ -88,8 +89,8 @@ class Popcliqsevents_Component_Ajax_Ajax extends Phpfox_Ajax
       );
       
       $iId = Phpfox::getLib('database')->update($this->_sTable, $aSql, $where_c );
-      $this->call('disablePopup();');
-      $this->alert('Event was successfully updated !!! ');
+      //$this->call('disablePopup();');
+      
 
       Phpfox::getLib('database')->update(Phpfox::getT('event_text'), array(
           'description' => (empty($edesc) ? null : $edesc),
@@ -100,7 +101,8 @@ class Popcliqsevents_Component_Ajax_Ajax extends Phpfox_Ajax
       Phpfox::getLib('database')->update(Phpfox::getT('event_category_data'), 
          array('category_id' => $ecategory) ,  $where_c );
   
-
+      $this->call('refreshHomeAdd();');
+      $this->alert('Event was successfully updated !!! ');
       return;
     }
 
@@ -129,8 +131,9 @@ class Popcliqsevents_Component_Ajax_Ajax extends Phpfox_Ajax
   
   //$this->alert('Event was ' . $iStartTime  . ' ' . $iEndTime );
   $iId = Phpfox::getLib('database')->insert($this->_sTable, $aSql);
-   $this->call('disablePopup();');
-  $this->alert('Event was successfully created !!! ');
+   
+  //$this->call('disablePopup();');
+  
 
   Phpfox::getLib('database')->insert(Phpfox::getT('event_text'), array(
           'event_id' => $iId,
@@ -148,6 +151,9 @@ class Popcliqsevents_Component_Ajax_Ajax extends Phpfox_Ajax
   );
   Phpfox::getLib('database')->insert(Phpfox::getT('event_invite'), $aSql);
 
+  $this->call('refreshHomeAdd();');
+  $this->alert('Event was successfully created !!! ');
+  
  }
 
  public function updateCatPref()
@@ -255,7 +261,7 @@ public function fetchIntEvent()
           //  and e.start_time >  '. PHPFOX_TIME  .
           if($aRow['start_time']  > $time_compare ){
             $html_string = $html_string . '<td height="25" align="left" valign="middle" bgcolor="#8CDAFF">
-            <a href="#" onclick="delete_event('.Phpfox::getUserId() .','.$aRow['event_id'].')" >C</a>
+            <a href="#sa" onclick="delete_event('.Phpfox::getUserId() .','.$aRow['event_id'].')" >C</a>
             <a href="#" onclick="edit_event('.Phpfox::getUserId() .','.$aRow['event_id'].')" >E</a></td>';
           
           }else{
@@ -279,6 +285,8 @@ public function fetchIntEvent()
       );
     
     $this->alert(" deleteIntEvent !!! ");
+    $this->call('refreshPageInitEvt();');
+
   }
 } 
 ?>

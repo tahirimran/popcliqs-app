@@ -12,10 +12,10 @@
 	date_default_timezone_set("UTC");  
 
 
-	$exit_cd = $_SUCCESS;
-	$key  = isset($_GET["key"]) ? $_GET["key"] : null ;
-	$tz   = isset($_GET["tz"]) ? $_GET["tz"] : 0 ;
-	$demo   = isset($_GET["demo"]) ? $_GET["demo"] : false ;
+	$exit_cd 	= $_SUCCESS;
+	$key  		= isset($_GET["key"]) ? $_GET["key"] : null ;
+	$tz   		= isset($_GET["tz"]) ? $_GET["tz"] : 0 ;
+	$demo   	= isset($_GET["demo"]) ? $_GET["demo"] : false ;
 
 	$start_t  = time();
 	$start_t  = $start_t - (60 *  $tz);
@@ -30,6 +30,18 @@
 	if(sizeof($keys)  < 2  ){
 		$exit_cd = $_ERROR_AUTH;
 	}
+
+	$q = (abs($tz)  / 60);
+	$q = round($q, 0, PHP_ROUND_HALF_DOWN);
+	$q = ($q > 10 )? $q : "0$q"; 
+	$r = (abs($tz) % 60 )== 0 ? "00" : "30";
+	
+	$sign  = "+";
+	if($tz > 0 ){
+		$sign = "-";
+	}
+	$ret_tz = "$sign$q$r";
+	
 
 	$user_id = $keys[0];
 	$pwd 	 = $keys[1];
@@ -79,6 +91,7 @@
 		$user_event1->lon      		= "-122.038604";
 		$user_event1->start_dt      = "10/12/2013";
 		$user_event1->end_dt      	= "10/12/2013";
+		$user_event1->creator       = 1000; 
 
 		$event_data_list[] =  $user_event1; 
 
@@ -99,6 +112,7 @@
 		$user_event2->lon      		= "-122.038604";
 		$user_event2->start_dt      = "10/12/2013";
 		$user_event2->end_dt      	= "10/12/2013";
+		$user_event2->creator       = 2000;
 
 		$event_data_list[] =  $user_event2; 
 
@@ -119,8 +133,9 @@
 		$user_event3->lon      		= "-122.038604";
 		$user_event3->start_dt      = "10/12/2013";
 		$user_event3->end_dt      	= "10/12/2013";
+		$user_event3->creator       = 2000;
 
-		$event_data_list[] =  $user_event2; 
+		$event_data_list[] =  $user_event3; 
 
 
 	}

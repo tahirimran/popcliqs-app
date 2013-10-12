@@ -49,8 +49,8 @@ function loadPopup(id, evt_id , $user_id, $mode){
 	      				$("#city").text(eventobj.city); 
 	      				$("#postal_code").text(eventobj.postal_code); 
 	      				$("#distance").text(eventobj.distance); 
-	      				if(eventobj.rsvp == 1 ){
-	      					$("#popupEventDetails").hide();
+	      				if(eventobj.rsvp != 1){
+	      					$("#popupEventDetails").show();
 	      				}
 	      			}	
     			});
@@ -337,11 +337,29 @@ function fetchIntEvt(){
 
 
 function delete_event(user_id, event_id){
-	
-	var queryStr = 'user_id='      + user_id     + '&event_id='      + event_id ;
-	$.ajaxCall('popcliqsevents.deleteIntEvent' , queryStr  );
-	setTimeout(fetchIntEvt() ,1000*10);
-	
+
+	var r=confirm("Are you sure you want to delete the event ? ");
+	if (r==true) { 
+	  	var queryStr = 'user_id='      + user_id     + '&event_id='      + event_id ;
+		$.ajaxCall('popcliqsevents.deleteIntEvent' , queryStr  );
+	}
+
+}
+
+function refreshHomeAdd(){
+
+	disablePopup();
+	refreshHome();
+
+}
+
+function refreshHome(){
+	init($user_id  , $time_interval , $cat_type , $search_var );
+}
+
+function refreshPageInitEvt(){
+	refreshHome();
+	fetchIntEvt();
 }
 
 function edit_event(user_id, event_id){

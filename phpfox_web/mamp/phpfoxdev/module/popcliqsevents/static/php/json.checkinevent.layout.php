@@ -17,8 +17,8 @@
 						"id" 	 		: <?php echo $user_event->event_id ?>,
 						"typeid" 		: <?php echo $user_event->category_id ?> ,
 						"type"    		: "<?php echo $user_event->category ?>" ,
-						"st_time" 		: "<?php echo $user_event->start_time ?>" ,
-						"ed_time" 		: "<?php echo $user_event->end_time ?>" ,
+						"st_time" 		: "<?php echo $user_event->start_time ?>:00" ,
+						"ed_time" 		: "<?php echo $user_event->end_time ?>:00" ,
 						"st_dt" 		: "<?php echo $user_event->start_dt ?>" ,
 						"ed_dt" 		: "<?php echo $user_event->end_dt ?>" ,
 						"title" 		: "<?php echo $user_event->title?>" ,
@@ -27,7 +27,9 @@
 						"city" 			: "<?php echo $user_event->city ?>" ,
 						"postal_code" 	: "<?php echo $user_event->postal_code ?>" ,
 						"lat"   		: "<?php echo $user_event->lat ?>" ,
-						"lon"   		: "<?php echo $user_event->lon ?>" 
+						"lon"   		: "<?php echo $user_event->lon ?>" ,
+						"tz"   			: "<?php echo $ret_tz ?>" ,
+						"is_creator"    : "<?php echo ($user_event->creator === $user_id ) ? "true" : "false" ?>"  
 					}
 			<?php   
 				} 

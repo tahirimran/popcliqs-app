@@ -26,7 +26,7 @@ Class User_Event {
 	public $mratio = 0.5;
 	public $fillPCent = 25;
 	public $no_of_maybe = 0;
-
+	public $creator;
 } 
 
 

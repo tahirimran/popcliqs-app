@@ -14,6 +14,7 @@ var historycircle ;
 var poppedBubble;
 var $time_interval;
 var $cat_type; 
+var $search_var;
 
 var now ;
 var maxL = 500;
@@ -50,6 +51,7 @@ var $user_id ;
 var eventlist  = new Array();
 function init(user_id , $time_interval , $cat_type , $search_t ){
 	
+	eventlist  = new Array();
 	$user_id = user_id;
 	if( $time_interval == null){
 		$time_interval = 8;
@@ -69,6 +71,7 @@ function init(user_id , $time_interval , $cat_type , $search_t ){
 	}else{
 		$("#s").val($search_t);
 	}
+	$search_var = $search_t;
 
 	this.$time_interval = $time_interval;
 	this.$cat_type      = $cat_type;
@@ -131,6 +134,9 @@ function process(){
 	canvas = document.getElementById("mainCanvas");
 	stage = new createjs.Stage(canvas);
 	
+	stage.clear();
+	stage.update();
+
 	//Easeljs
 	// to get onMouseOver & onMouseOut events, we need to enable them on the stage:
 	stage.enableMouseOver();
@@ -155,9 +161,7 @@ function process(){
 		
 	// in order for the stage to continue to redraw when the Ticker is paused we need to add it with
 	// the second ("pauseable") param set to false.
-	createjs.Ticker.addEventListener("tick", tick);
-	
-	
+	createjs.Ticker.addEventListener("tick", tick);	
 }﻿
 
 function drawWaterDrop(){
@@ -190,6 +194,7 @@ function drawBody(){
 	 var time_line = 0; 
 	//Easeljs
 	var bg = new createjs.Shape();
+
 	stage.addChild(bg);
 	bg.graphics.beginStroke("#9F9F9F");
 

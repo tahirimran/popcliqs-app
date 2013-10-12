@@ -54,13 +54,13 @@
 </div>
 
 
-<div class='formcontainer bottomSpace'>
-</div>
-
+<!--div class='formcontainer bottomSpace'>
+</div-->
+<br/>
 <div class='formcontainer'>
-  <div align="right" style="padding-left: 165px">
+  <div id="popupEventDetails" align="right" style="padding-left: 165px;display:none;">
    
-    <a id="popupEventDetails">
+    <a >
        <img src="./module/popcliqsevents/static/image/pop_this_event_btn.png" align="left" alt="btn" width="231" height="46" border="0"> 
     </a>   
     </div> 
