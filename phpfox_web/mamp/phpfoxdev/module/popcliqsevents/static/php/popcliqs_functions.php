@@ -286,6 +286,8 @@ function get_event_by_id($event_id , $conn , $tz){
 		$ed_evt_hr = date('H', $end_time) ;
 		$ed_evt_mn = date('i', $end_time) ;
 
+		$latlong  = get_lat_lon_zip( $postal_code ,  $conn );
+		
 		$user_event = new User_Event();
 		$user_event->event_id   	= $event_id;
 		$user_event->start_time		= $st_evt_hr . ':'. $st_evt_mn;
@@ -299,6 +301,8 @@ function get_event_by_id($event_id , $conn , $tz){
 		$user_event->category_id   	= $category_id;
 		$user_event->description    = $description;
 		$user_event->age_limit      = $age_limit;
+		$user_event->lat      		= $latlong['lat'];
+		$user_event->lon      		= $latlong['lon'];
 		
 		$user_event->start_dt       =  date('m', $start_time) .'/'. date('d', $start_time) . '/' . date('Y', $start_time);
 		$user_event->end_dt         =  date('m', $end_time)   .'/'. date('d', $end_time)   . '/' . date('Y', $end_time);
@@ -443,5 +447,7 @@ function get_user_age( $conn , $user_id  ){
 //$zips = get_zips_within_lat_lon( 37.317363 , -122.038604  , 25 , $config);
 //$zips = get_zips_within( 95014 , 1 , $config);
 //var_dump($zips);
+
+
 
 ?>
