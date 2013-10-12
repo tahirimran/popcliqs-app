@@ -1,4 +1,5 @@
 <?php 
+		
 
 function is_operation_authorised( $conn  , $user_id, $pwd){
 
@@ -47,6 +48,45 @@ function fetch_checkin_event($conn ,$user_id , $start_t){
 		}
 	}
 	return $checkin_eventid_list ;
+}
+
+function authenticate_user($conn, $usernm , $pwd) {
+
+	$key = null;
+
+	$query = " 
+				select user_id , password  , password_salt from phpfox_user where email = :usernm 	
+			";
+
+	$binding = array( 
+		'usernm' => $usernm 
+	);
+
+	$results = query( $query, $conn , $binding );
+	if($results){
+		foreach( $results as $row){
+
+			$pwd_hash_db 	= $row[1];
+			$spwd   		= $row[2];
+			$pwd_hash_in	= setHash($pwd , $spwd);
+
+			if($pwd_hash_db === $pwd_hash_in){
+				$key =  $row[0]. "$" . $row[1];
+			}
+		}
+	}
+
+
+	return $key;
+}
+	
+function setHash($sPassword, $sSalt )
+{
+	if (!$sSalt)
+	{
+		$sSalt = "1d8063761ad359aee04db8acffc4b217";
+	}
+	return md5(md5($sPassword) . md5($sSalt));
 }
 
 

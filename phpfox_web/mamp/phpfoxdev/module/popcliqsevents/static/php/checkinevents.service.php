@@ -125,7 +125,6 @@
 
 	}
 	//var_dump($event_data_list);
-	echo "<br/><br/>";
 	include ('json.checkinevent.layout.php');
 
 ?>
