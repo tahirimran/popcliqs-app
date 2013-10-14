@@ -90,6 +90,43 @@ function setHash($sPassword, $sSalt )
 	return md5(md5($sPassword) . md5($sSalt));
 }
 
+function update_rsvp_status($conn ,$user_id , $event_id , $resp_cd){
+
+	$query = " 
+				update phpfox_event_invite set rsvp_id = :resp_cd , time_stamp = :time
+				where user_id = :user_id and event_id = :event_id 
+			";
+
+	$binding = array( 
+		'resp_cd' 	  => $resp_cd  , 
+		'user_id' 	  => $user_id  , 
+		'event_id'    => $event_id ,
+		'time'        => time()
+	);
+
+	update_query_execute ($query , $conn , $binding);
+
+}
+
+
+function update_event_status($conn ,$user_id , $event_id , $resp_cd){
+
+	$query = " 
+				update phpfox_event set is_active = :resp_cd , time_stamp = :time
+				where user_id = :user_id and event_id = :event_id 
+			";
+
+	$binding = array( 
+		'resp_cd' 	  => $resp_cd  ,
+		'user_id' 	  => $user_id  ,  
+		'event_id'    => $event_id ,
+		'time'        => time()
+	);
+
+	update_query_execute ($query , $conn , $binding);
+
+}
+
 
 ?>
 

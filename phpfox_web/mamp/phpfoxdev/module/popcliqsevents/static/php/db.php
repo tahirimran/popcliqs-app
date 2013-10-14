@@ -36,6 +36,10 @@ function query($query , $conn , $bindings = null){
 	return $results ? $results : false;
 }
 
+function update_query_execute ($query , $conn , $bindings = null){
+	$stmt = $conn->prepare($query);
+	$stmt->execute($bindings);
+}
 
 
 ?>
