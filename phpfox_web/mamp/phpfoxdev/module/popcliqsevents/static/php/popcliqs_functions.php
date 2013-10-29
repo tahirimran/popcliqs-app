@@ -257,7 +257,7 @@ function get_lat_lon_zip( $zip ,  $conn){
 	return false;
 }
 
-function get_event_by_id($event_id , $conn , $tz){
+function get_event_by_id($event_id , $conn , $tz, $start_t = null){
 
 	$event_data = array();
 
@@ -298,7 +298,7 @@ function get_event_by_id($event_id , $conn , $tz){
 		$user_event->city			= $city;
 		$user_event->postal_code	= $postal_code;
 		$user_event->category   	= $name;
-		$user_event->category_id   	= $category_id;
+		$user_event->category_id 	= $category_id;
 		$user_event->description    = $description;
 		$user_event->age_limit      = $age_limit;
 		$user_event->lat      		= $latlong['lat'];
@@ -307,9 +307,16 @@ function get_event_by_id($event_id , $conn , $tz){
 		
 		$user_event->start_dt       =  date('m', $start_time) .'/'. date('d', $start_time) . '/' . date('Y', $start_time);
 		$user_event->end_dt         =  date('m', $end_time)   .'/'. date('d', $end_time)   . '/' . date('Y', $end_time);
-		//var_dump($user_event);
-		$event_data[] = $user_event;
 		
+		if($start_t != null){
+
+			$time_diff = $start_time - $start_t ;
+			// if time diff is less than 1.5 hours , user can checking 
+			if($time_diff > (60 *1.5*60) ){
+		    	$user_event->mins_left_for_checkin = round($time_diff/60 - (1.5*60))  ;
+			}
+		}
+		$event_data[] = $user_event;
 	}
 	return $event_data;
 }

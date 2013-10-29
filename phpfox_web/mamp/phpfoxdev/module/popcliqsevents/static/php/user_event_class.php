@@ -27,6 +27,7 @@ Class User_Event {
 	public $fillPCent = 25;
 	public $no_of_maybe = 0;
 	public $creator;
+	public $mins_left_for_checkin = 0;
 } 
 
 

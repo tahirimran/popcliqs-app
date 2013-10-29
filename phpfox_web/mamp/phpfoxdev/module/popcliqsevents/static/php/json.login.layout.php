@@ -1,6 +1,6 @@
 {
 
-	"exit_cd" : <?php echo $exit_cd ?> , 
+	"exit_cd" : "<?php echo $exit_cd ?>" , 
 	"key"     : "<?php echo $key ?>" 
 
 }
