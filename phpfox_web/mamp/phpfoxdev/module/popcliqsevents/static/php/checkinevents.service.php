@@ -14,7 +14,7 @@
 
 	$exit_cd 	= $_SUCCESS;
 	$key  		= isset($_GET["key"]) ? $_GET["key"] : null ;
-	$tz   		= isset($_GET["tz"]) ? $_GET["tz"] : 0 ;
+	$tz   		= isset($_GET["tz"])  ? $_GET["tz"] : 0 ;
 	
 
 	$start_t  = time();

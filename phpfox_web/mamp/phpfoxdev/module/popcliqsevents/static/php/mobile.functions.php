@@ -127,6 +127,113 @@ function update_event_status($conn ,$user_id , $event_id , $resp_cd){
 
 }
 
+function add_new_event($conn , $user_id ,  $zip , $cat_cd , $st_time , $end_time ){
+
+	//add event 
+	$evt_id = add_event($conn , $user_id ,  $zip , $st_time , $end_time );
+
+	echo $evt_id;
+	//add event description
+	add_event_desc($conn , 	$evt_id  );	
+	
+	//add event category
+	add_event_cat($conn ,  $evt_id , $cat_cd);	
+
+	//add event invite
+	add_event_invite($conn , $user_id  , $evt_id );
+}
+
+function add_event_cat($conn ,  $evt_id , $cat_cd){
+
+	$query = " 
+				insert into phpfox_event_category_data( 
+					event_id , category_id 
+				)
+				VALUES (
+					 :eid , :catid
+				) 
+			";
+
+	$binding = array( 
+		'eid'   => $evt_id  ,
+		'catid' => $cat_cd  
+		
+	);
+	insert_query_execute ($query , $conn , $binding);
+}
+
+function add_event_invite($conn , $user_id  , $evt_id ){
+
+	$query = " 
+				insert into phpfox_event_invite ( 
+					user_id ,  event_id , rsvp_id , time_stamp
+				)
+				VALUES (
+					:uid , :eid , 1 , :time
+				) 
+			";
+
+	$binding = array( 
+		'uid' => $user_id  ,
+		'eid' => $evt_id  ,
+		'time' => time()  
+	);
+	insert_query_execute ($query , $conn , $binding);
+}
+
+function add_event_desc($conn , $evt_id  ){
+
+    $query = " 
+				insert into phpfox_event_text ( 
+					event_id ,  description , description_parsed
+				)
+				VALUES (
+					:eid , 'My simple description' , 'My simple description'
+				) 
+			";
+
+	$binding = array( 
+		'eid' => $evt_id  
+	);
+
+	insert_query_execute ($query , $conn , $binding);
+}
+
+
+function add_event($conn , $user_id ,  $zip , $st_time , $end_time){
+
+	$query = " 
+				insert into phpfox_event  ( 
+					view_id   , privacy ,privacy_comment ,
+					module_id , item_id , user_id , title , 
+					location , country_iso , country_child_id , 
+					postal_code , city , age_limit , 
+					time_stamp , start_time , end_time , 
+					start_gmt_offset , end_gmt_offset , address 
+
+				)
+				VALUES (
+					'0', '0' , '0',
+					'event' , 0 ,:uid , 'Simple title' ,
+					'New location','US' , 0,
+					:zip  , 'Cupertino' , '-1' , 
+					:time , :st_time , :end_time,
+					0 , 0 , '660 1st Street Northcross'
+
+				) 
+			";
+
+	$binding = array( 
+		'uid' 	  	=> $user_id  , 
+		'zip' 	  	=> $zip      , 
+		'time'   	=> time()  ,
+		'st_time'   => $st_time ,
+		'end_time'	=> $end_time 
+	);
+
+	return insert_query_execute ($query , $conn , $binding);
+
+}
 
 ?>
 

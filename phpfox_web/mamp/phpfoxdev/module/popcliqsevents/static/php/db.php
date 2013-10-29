@@ -41,5 +41,12 @@ function update_query_execute ($query , $conn , $bindings = null){
 	$stmt->execute($bindings);
 }
 
+function insert_query_execute ($query , $conn , $bindings = null){
+	$stmt = $conn->prepare($query);
+	$stmt->execute($bindings);
+	
+	return $conn->lastInsertId();
+}
+
 
 ?>

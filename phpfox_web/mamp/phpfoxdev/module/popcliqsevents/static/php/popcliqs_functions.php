@@ -21,7 +21,6 @@ function getSplashEvent($conn , $start_t  , $end_t , $latlong , $search_term , $
 				e_txt.description_parsed  LIKE :search_t 
 			)
 	";	
-			
 
 	$binding = array(
 		'st' 	=> $start_t ,
